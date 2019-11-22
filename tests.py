@@ -11,3 +11,7 @@ class TestWorker(unittest.TestCase):
     def test_isupper(self):
         georgii = Programmist()
         self.assertEqual(georgii.nick, "Levasik")
+
+    def test_start(self):
+        georgii = Programmist()
+        self.assertEqual(georgii.start(), "Просыпаюсь")
