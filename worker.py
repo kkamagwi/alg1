@@ -12,16 +12,16 @@ class Programmist:
     gender = "Men"
 
     def start(self):
-        print("Просыпаюсь")
+        return "Просыпаюсь"
 
     def eating(self):
-        print("Кушаю")
+        return "Кушаю"
 
     def school(self):
-        print("Иду в школу")
+        return "Иду в школу"
 
     def home(self):
-        print("Возвращаюсь домой")
+        return "Возвращаюсь домой"
 
     def sleep(self):
         return 'sleeping'
