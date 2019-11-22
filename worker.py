@@ -22,3 +22,6 @@ class Programmist:
 
     def home(self):
         print("Возвращаюсь домой")
+
+    def sleep(self):
+        return 'sleeping'
